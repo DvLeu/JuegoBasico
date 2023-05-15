@@ -1,4 +1,4 @@
-package Hilos;
+package Objetos;
 import java.util.Random;
 
 public class Personaje {
