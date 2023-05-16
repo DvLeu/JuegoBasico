@@ -45,7 +45,7 @@ public class Personaje extends Thread {
         return (nivel * fisico * randi);
     }
     //Ataques magicos
-    public int ataque_fuerza(){
+    public int ataque_magico(){
         if (magia > 0){
             magia--;
             return nivel*magia;
