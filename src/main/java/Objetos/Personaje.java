@@ -61,3 +61,4 @@ public class Personaje extends Thread {
 
 
 }
+
