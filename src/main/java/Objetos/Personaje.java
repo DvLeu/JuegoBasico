@@ -1,12 +1,11 @@
 package Objetos;
 import java.util.Random;
 
-public class Personaje {
+public class Personaje extends Thread {
     private Random random = new Random(System.nanoTime());
     private int vida;
     private int fisico;
     private int magia;
-    private int dinero;
     private int nivel;
 
     public int getVida() {
@@ -31,14 +30,6 @@ public class Personaje {
 
     public void setMagia(int fuerza) {
         this.magia = fuerza;
-    }
-
-    public int getDinero() {
-        return dinero;
-    }
-
-    public void setDinero(int dinero) {
-        this.dinero = dinero;
     }
 
     public int getNivel() {
