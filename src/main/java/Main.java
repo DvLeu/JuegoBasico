@@ -1,10 +1,15 @@
 import Objetos.Personaje;
+import Vista.VistaPersonajes;
 
 import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        VistaPersonajes vp = new VistaPersonajes();
+
+        /*
         int random, salud;
         boolean p1 = true;
         boolean p2 = true;
@@ -67,7 +72,7 @@ public class Main {
 
 
 
-        }while (p1 && p2);
+        }while (p1 && p2);  */
 
     }
 }

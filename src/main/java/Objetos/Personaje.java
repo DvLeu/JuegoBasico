@@ -1,7 +1,7 @@
 package Objetos;
 import java.util.Random;
 
-public class Personaje extends Thread {
+public class Personaje {
     private Random random = new Random(System.nanoTime());
     private int vida;
     private int fisico;
