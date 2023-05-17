@@ -54,16 +54,25 @@ public class Main {
             }else {
                 salud = jugador2.ataque_magico();
             }
-            System.out.println(jugador2.getName()+"Le ha dado un golpe de : " + salud + "HP");
+            System.out.println(jugador2.getName()+" Le ha dado un golpe de : " + salud + "HP");
             jugador1.danio(salud);
 
             if (jugador1.getVida() <=0){
                 p1 = false;
+                System.out.println(jugador1.getName()+" HA MUERTO");
             }else {
-                p2 = false;
+                if (jugador2.getVida()<=0){
+                    p2 = false;
+                    System.out.println(jugador2.getName()+" HA MUERTO");
+                }
             }
-            System.out.println(jugador1.getName()+"Tiene " + jugador1.getVida() + "Puntos de Salud ");
-            System.out.println(jugador2.getName()+"Tiene " + jugador2.getVida() + "Puntos de Salud");
+            if (jugador1.getVida()>=0){
+                System.out.println(jugador1.getName()+" Tiene " + jugador1.getVida() + "Puntos de Salud ");
+            }
+            if (jugador2.getVida()>=0){
+                System.out.println(jugador2.getName()+" Tiene " + jugador2.getVida() + "Puntos de Salud");
+            }
+
 
 
 
