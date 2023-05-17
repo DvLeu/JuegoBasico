@@ -15,7 +15,7 @@
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <icon value="img/peleador1.png"/>
+          <icon value="img/kio.gif"/>
           <text value=""/>
         </properties>
       </component>
@@ -29,7 +29,7 @@
           <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <icon value="img/peleador2.png"/>
+          <icon value="img/Iori2.gif"/>
           <text value=""/>
         </properties>
       </component>
